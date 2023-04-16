@@ -1,4 +1,4 @@
-# Programa Calculadora usando Java Servlet anotado.
+# Programa WEB Calculadora usando Java Servlet anotado.
 
 - Programa WEB usando Java Servlet para uma calculadora.
 - Utiliza Java Servlet anotado.
