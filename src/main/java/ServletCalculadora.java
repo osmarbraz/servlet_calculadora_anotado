@@ -31,19 +31,19 @@ public class ServletCalculadora extends HttpServlet {
 
         if (request.getParameter("operacao").equals("adicao")) {
             resultado = valorA + valorB;
-            out.print("A adi&ccedil;&atilde;o de " + valorA+ " + " + valorB+ " = " + resultado + " <p>");
+            out.print("A soma de " + valorA+ " + " + valorB+ " = " + resultado + " <p>");
         } else {
             if (request.getParameter("operacao").equals("subtracao")) {
                 resultado = valorA - valorB;
-                out.print("A subtra&ccedil;&atilde;o de " + valorA + " - " + valorB+ " = " + resultado + " <p>");
+                out.print("A diferen&ccedil;a de " + valorA + " - " + valorB+ " = " + resultado + " <p>");
             } else {
-                if (request.getParameter("operacao").equals("produto")) {
+                if (request.getParameter("operacao").equals("multiplicacao")) {
                     resultado = valorA * valorB;
-                    out.print("O produto " + valorA + " * " + valorB + " = " + resultado + " <p>");
+                    out.print("O produto de " + valorA + " * " + valorB + " = " + resultado + " <p>");
                 } else {
                     if (request.getParameter("operacao").equals("divisao")) {
                         resultado = valorA / valorB;
-                        out.print("A divis&atilde;o " + valorA + " / " + valorB + " = " + resultado + " <p>");
+                        out.print("O quociente de " + valorA + " / " + valorB + " = " + resultado + " <p>");
                     } else {
                         out.print("Opera&ccedil;&atilde;o inv&aacute;lida! <p>");
                     }

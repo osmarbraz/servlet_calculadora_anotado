@@ -26,7 +26,7 @@ public class ServletFrmCalculadora extends HttpServlet {
         out.println("        <select name=\"operacao\" id=\"operacao\">");
         out.println("            <option value=\"adicao\">Adi&ccedil;&atilde;o</option>");
         out.println("            <option value=\"subtracao\">Subtra&ccedil;&atilde;o</option>");
-        out.println("            <option value=\"produto\">Produto</option>");
+        out.println("            <option value=\"multiplicacao\">Multiplica&ccedil;&atilde;o</option>");
         out.println("            <option value=\"divisao\">Divis&atilde;o</option>");
         out.println("        </select><p>");
         out.println("        Valor B : <input type=text name=\"ValorB\"> <p>");
